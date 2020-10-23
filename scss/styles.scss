@@ -1,3 +1,10 @@
-body {
-    color: red;
-}
+@import 'variables';
+@import 'home';
+@import 'nosotras';
+@import 'preguntasFrecuentes';
+@import  'header';
+@import 'productos';
+@import 'footer';
+@import 'global';
+@import 'buttons';
+@import 'contacto';
