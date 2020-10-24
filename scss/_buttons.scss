@@ -9,7 +9,7 @@
     border-radius: 50px;
     right: 15px;
     bottom: 15px;
-    background:rgba(230,230,250);
+    background:rgb(230,230,250);
     color: brown;
     transition: display 0.5s ease-in-out;
     z-index: 99999;
@@ -24,6 +24,6 @@
   }
   
   .back-to-top:hover {
-    color:rgba(230,230,250);
+    color:rgb(230,230,250);
     background: brown;
   }
