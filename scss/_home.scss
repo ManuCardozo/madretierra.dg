@@ -79,6 +79,7 @@
   section {
     padding: 60px 0;
     overflow: hidden;
+    padding-bottom: 0%;
   }
   
   .section-bg {
@@ -133,7 +134,7 @@
     display: block;
     width: 40px;
     height: 3px;
-    background: #fdc134;
+    background: $main-color;
     bottom: 0;
     left: calc(50% - 20px);
   }
@@ -142,7 +143,7 @@
     margin-bottom: 0;
   }
   /*--------------------------------------------------------------
-# Logos Ecos
+ Logos Ecologicos
 --------------------------------------------------------------*/
 .clients {
     padding: 0;
@@ -291,7 +292,7 @@
   }
   
   /*--------------------------------------------------------------
-  # Portfolio Details
+  # Galeria
   --------------------------------------------------------------*/
   .portfolio-details {
     padding-top: 30px;
@@ -377,56 +378,10 @@
     }
   }
 /*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team .member {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .team .member .pic {
-    margin-bottom: 15px;
-    overflow: hidden;
-    min-height: 260px;
-  }
-  
-  .team .member .pic img {
-    max-width: 100%;
-  }
-  
-  .team .member h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 18px;
-    color: #213b52;
-  }
-  
-  .team .member span {
-    font-style: italic;
-    display: block;
-    font-size: 13px;
-  }
-  
-  .team .member .social {
-    margin-top: 15px;
-  }
-  
-  .team .member .social a {
-    color: #5289ba;
-    transition: 0.3s;
-  }
-  
-  .team .member .social a:hover {
-    color: #fdc134;
-  }
-  
-  .team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-  }
+
   
   /*--------------------------------------------------------------
-  # Pricing
+  # Precio
   --------------------------------------------------------------*/
   .pricing .row {
     padding-top: 40px;
