@@ -16,6 +16,9 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Libre Caslon Display', serif;
   }
+main {
+  background-color: lavender;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -65,7 +68,7 @@ body {
 # Services
 --------------------------------------------------------------*/
 .services {
-    padding-bottom: 40px;
+    padding: 0px;
   }
   
   .services .card {
