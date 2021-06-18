@@ -8,43 +8,76 @@
   .about .content h3 {
     font-weight: 700;
     font-size: 34px;
-    color: #213b52;
+    color: $main-color;
   }
-  
-  .about .content p {
+  @media only screen and (min-width:400px) and (max-width:800px){
+    .about .content h3 {
+      font-weight: 700;
+      font-size: 34px;
+      color: $main-color;
+      margin-left: 55px;
+      margin-right: 55px;
+      width: 400px;
+      padding-left: 40px;
+    }
+}  
+  @media only screen and (min-width:200px) and (max-width:400px){
+    .about .content h3 {
+      font-weight: 500;
+      font-size: 45px;
+      color: $main-color;
+      margin-left: 55px;
+    }
+}  
+.about .content p {
     margin-bottom: 0;
   }
-  
+  @media only screen and (min-width:400px) and (max-width:800px){
+    .about .content p {
+      margin-bottom: 0;
+      margin-left: 20px !important;
+      text-align: center;
+      margin-right: 70px !important;
+      padding-right: 50px;
+    }
+  }
+  @media only screen and (min-width:200px) and (max-width:400px){
+    .about .content p {
+      margin-bottom: 0;
+      margin-left: 20px;
+      text-align: center;
+    }
+  }
   .about .content .icon-box {
     margin-top: 25px;
-  }
-  
+}
   .about .content .icon-box h4 {
     font-size: 20px;
     font-weight: 700;
     margin: 5px 0 10px 60px;
-    color: #213b52;
+    color: $main-color;
   }
   
   .about .content .icon-box h4 a {
-    color: #213b52;
+    color:$main-color;
     transition: 0.3s;
   }
   
   .about .content .icon-box h4 a:hover {
-    color: #fdc134;
+    color:$main-color;
   }
   
   .about .content .icon-box i {
     font-size: 48px;
     float: left;
-    color: #fdc134;
+    color: $main-color;
   }
   
   .about .content .icon-box p {
     font-size: 15px;
-    color: #848484;
+    color: #0a0a0a;
     margin-left: 60px;
+    text-align: inherit;
   }
   
   .about .image {
@@ -66,9 +99,69 @@
     }
   }
   .section_elaborados {
-    background:$backg-color;
+    background: linear-gradient(1deg, lavender 52%, #fafae6 84%);
     & h1{
       color: $main-color;
+      text-transform: uppercase;
+      
     } 
+  }
+ 
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  @media only screen and (min-width:800px) and (max-width:1200px){
+    .font-weight-normal {
+      font-weight: 400!important;
+      width: 700px;
+    }
+  }
+  @media only screen and (min-width:800px) and (max-width:1200px){
+    .p-lg-5 {
+      padding: 3rem!important;
+      font-family: $cont-font;
+      margin-right:500px !important ;
+    }
+  }
+  @media only screen and (min-width:800px) and (max-width:1200px){
+    .section_elaborados {
+      background: linear-gradient(1deg, lavender 52%, #fafae6 84%);
+      & h1{
+        color: $main-color;
+        text-transform: uppercase;
+        width: 700px;
+      } 
+    }
+  }
+  @media only screen and (min-width:1600px) and (max-width:2600px){
+    .section-bg-nosotras {
+      background: linear-gradient(1deg,rgb(250,250,230) 0%,rgb(230,230,250) , rgb(230,230,250)  100%);
+      padding-top: 5px;
+    }
+  }
+  @media only screen and (min-width:1200px) and (max-width:1600px){
+    .section-bg-nosotras {
+      background: linear-gradient(1deg,rgb(250,250,230) 0%,rgb(230,230,250) , rgb(230,230,250)  100%);
+      padding-top: 5px;
+    }
+  }
+  @media only screen and (min-width:800px) and (max-width:1200px){
+    .section-bg-nosotras {
+      background: linear-gradient(1deg,rgb(250,250,230) 0%,rgb(230,230,250) , rgb(230,230,250)  100%);
+      padding-top: 5px;
+    }
+  }
+  @media only screen and (min-width:400px) and (max-width:800px){
+    .section-bg-nosotras {
+      background: linear-gradient(1deg,rgb(250,250,230) 0%,rgb(230,230,250) , rgb(230,230,250)  100%);
+      padding-top: 5px;
+    }
+  }
+  @media only screen and (min-width:200px) and (max-width:400px){
+    .section-bg-nosotras {
+      background: linear-gradient(1deg,rgb(250,250,230) 0%,rgb(230,230,250) , rgb(230,230,250)  100%);
+      padding-top: 5px;
+    }
   }
   
